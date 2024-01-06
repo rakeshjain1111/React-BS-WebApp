@@ -1,0 +1,28 @@
+[
+    {
+        "label": "Home" ,
+        "link" :   "/"
+    },
+
+    {
+        "label": "Blog",
+        "link" : "/blog"
+    },
+
+    {
+        "label": "Refrence" ,
+        "link" : "/ref"
+    },
+
+    {
+        "label": "Learn",
+        "link" : "/learn"
+    },
+
+    {
+        "label": "Contact",
+        "link" : "/contact"
+    }
+
+
+]
