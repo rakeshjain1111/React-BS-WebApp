@@ -1,27 +1,42 @@
 [
     {
         "label": "Home" ,
-        "link" :   "/"
+        "link" :   "/",
+        "isDropdown":false
     },
 
     {
         "label": "Blog",
-        "link" : "/blog"
+        "link" : "/blog",
+        "isDropdown":true,
+        "dropdownMenu" : [
+            {
+                "label" : "Git",
+                "link"  : "/git"
+            },
+            {
+                "label" : "Github",
+                "link"  :  "/github"
+            }
+        ]
     },
 
     {
         "label": "Refrence" ,
-        "link" : "/ref"
+        "link" : "/ref",
+        "isDropdown":false
     },
 
     {
         "label": "Learn",
-        "link" : "/learn"
+        "link" : "/learn",
+        "isDropdown":false
     },
 
     {
         "label": "Contact",
-        "link" : "/contact"
+        "link" : "/contact",
+        "isDropdown":false
     }
 
 

@@ -10,11 +10,11 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-black text-light">
+    <Navbar expand="lg" className="">
       <Container>
         <Link to ="/" className='navbar-brand'>
             <img src="logo192.png" width={50} className='me-2' />
-            <span className='text-light fw-bold'> My Web</span>
+            <span className='fw-bold'> My Web</span>
        </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -23,12 +23,10 @@ function Header() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-           
-
             {
                 menu.map((item, index) =>{
                     // console.log(item,index);
-                     return <Link to={item.link} key={index} className='nav-link text-light'>{item.label}</Link>
+                     return <Link to={item.link} key={index} className='nav-link'>{item.label}</Link>
                 })
 
             }
